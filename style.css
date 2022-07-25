@@ -1,0 +1,45 @@
+img {
+    width: 100%;
+}
+
+.bg-1 {
+    background-color: rgb(255, 226, 231);
+}
+
+.category-bg-1 {
+    background-color: rgb(245, 135, 38);
+}
+
+.category-bg-2 {
+    background: orchid;
+}
+
+.category-bg-3 {
+    background-color: blue;
+}
+
+.card {
+    border: none;
+    box-shadow: 10px 10px 20px 15px #f7f7f7;
+}
+
+.form-control {
+    width: auto;
+}
+
+.custom-form-btn {
+    margin-left: -14px;
+    border-radius: 0 5px 5px 0;
+    margin-top: -3px;
+    background-image: linear-gradient(#e734b0, #ca73c3);
+    border: 1px solid #e734b0;
+    padding: 6px 24px;
+}
+
+@media (max-width:350px) {
+    .custom-form-btn {
+
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+}
